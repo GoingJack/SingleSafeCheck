@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainView</class>
+ <widget class="QWidget" name="MainView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1670</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1670</width>
+    <height>870</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1670</width>
+    <height>870</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="SoftwareInfowg" name="SoftwareInfo" native="true"/>
+   </item>
+   <item>
+    <widget class="FirstTitle" name="Ftitle_wg" native="true"/>
+   </item>
+   <item>
+    <widget class="QWidget" name="Stitle_wg" native="true"/>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="ComputerCheck" name="check"/>
+     <widget class="Internet_Tab" name="internet"/>
+     <widget class="filecheck_tab" name="folder"/>
+     <widget class="usb_tab" name="usb"/>
+     <widget class="picture_tab" name="picture"/>
+     <widget class="QWidget" name="virtual_m"/>
+     <widget class="QWidget" name="restore"/>
+     <widget class="report_tab" name="report"/>
+    </widget>
+   </item>
+  </layout>
+  <zorder>stackedWidget</zorder>
+  <zorder>SoftwareInfo</zorder>
+  <zorder>Ftitle_wg</zorder>
+  <zorder>Stitle_wg</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SoftwareInfowg</class>
+   <extends>QWidget</extends>
+   <header location="global">softwareinfowg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FirstTitle</class>
+   <extends>QWidget</extends>
+   <header location="global">firsttitle.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ComputerCheck</class>
+   <extends>QWidget</extends>
+   <header location="global">computercheck.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Internet_Tab</class>
+   <extends>QWidget</extends>
+   <header location="global">internet_tab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>filecheck_tab</class>
+   <extends>QWidget</extends>
+   <header location="global">filecheck_tab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>usb_tab</class>
+   <extends>QWidget</extends>
+   <header location="global">usb_tab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>picture_tab</class>
+   <extends>QWidget</extends>
+   <header location="global">picture_tab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>report_tab</class>
+   <extends>QWidget</extends>
+   <header location="global">report_tab.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

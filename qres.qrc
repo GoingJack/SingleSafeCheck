@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/1_check.png</file>
+        <file>res/2_internet.png</file>
+        <file>res/3_folder.png</file>
+        <file>res/4_USB.png</file>
+        <file>res/5_picture.png</file>
+        <file>res/6_virtul.png</file>
+        <file>res/7_restore.png</file>
+        <file>res/8_report.png</file>
+        <file>res/about.png</file>
+        <file>res/background.png</file>
+        <file>res/close.png</file>
+        <file>res/min.png</file>
+    </qresource>
+</RCC>
